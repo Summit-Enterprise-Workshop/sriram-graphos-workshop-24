@@ -5,9 +5,9 @@ supergraph:
   listen: 0.0.0.0:${env.PORT:-4000}
   introspection: true
   limits:
-  max_depth: 5
-  max_height: 10
-  max_aliases: 3
+    max_depth: 5
+    max_height: 10
+    max_aliases: 3
 
 # For demo purposes - can remove or enable homepage
 sandbox:
